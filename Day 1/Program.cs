@@ -112,7 +112,7 @@ namespace Day_1
             var fullnames = GetFullMemberNames();
             for (int i = 0; i < fullnames.Count; i++)
             {
-                string? fullname = fullnames[i];
+                string fullname = fullnames[i];
                 Console.WriteLine($"{i + 1}. {fullname}");
             }
             // 4.
