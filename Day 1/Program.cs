@@ -102,28 +102,28 @@ namespace Day_1
         }
         static void Main(string[] args)
         {
-            // //1.
-            // var maleMembers = GetMaleMembers();
-            // PrintData(maleMembers);
-            // //2.
-            // var oldest = GetOldestMember();
-            // PrintData(new List<Member> { oldest });
-            // //3.
-            // var fullnames = GetFullMemberNames();
-            // for (int i = 0; i < fullnames.Count; i++)
-            // {
-            //     string? fullname = fullnames[i];
-            //     Console.WriteLine($"{i + 1}. {fullname}");
-            // }
-            // // 4.
-            // var results = SplitMemberByBirthYear();
-            // PrintData(results.Item1);
-            // Console.WriteLine("----------------------------------------------------");
-            // PrintData(results.Item2);
-            // Console.WriteLine("----------------------------------------------------");
-            // PrintData(results.Item3);
-            // Console.WriteLine("----------------------------------------------------");
-            // //5.
+            //1.
+            var maleMembers = GetMaleMembers();
+            PrintData(maleMembers);
+            //2.
+            var oldest = GetOldestMember();
+            PrintData(new List<Member> { oldest });
+            //3.
+            var fullnames = GetFullMemberNames();
+            for (int i = 0; i < fullnames.Count; i++)
+            {
+                string? fullname = fullnames[i];
+                Console.WriteLine($"{i + 1}. {fullname}");
+            }
+            // 4.
+            var results = SplitMemberByBirthYear();
+            PrintData(results.Item1);
+            Console.WriteLine("----------------------------------------------------");
+            PrintData(results.Item2);
+            Console.WriteLine("----------------------------------------------------");
+            PrintData(results.Item3);
+            Console.WriteLine("----------------------------------------------------");
+            //5.
             var bornInHaNoiMembers = GetBirthPlace();
             PrintData(bornInHaNoiMembers);
         }
