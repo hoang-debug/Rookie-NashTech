@@ -1,0 +1,15 @@
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.csproj.AssemblyReference.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.AssemblyInfoInputs.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.AssemblyInfo.cs
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.csproj.CoreCompileInputs.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\Day 3.exe
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\Day 3.deps.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\Day 3.runtimeconfig.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\Day 3.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\ref\Day 3.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\bin\Debug\net6.0\Day 3.pdb
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\ref\Day 3.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.pdb
+C:\Users\HOANG\Documents\GitHub\C#\Day 3\obj\Debug\net6.0\Day 3.genruntimeconfig.cache
