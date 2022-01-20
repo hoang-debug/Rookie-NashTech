@@ -1,0 +1,33 @@
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"http","Host":"localhost:5129","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"http","Host":"localhost:5129","Path":"/","Body":"","QueryString":""}
+Hello, Anyone there?
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/favicon.ico","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"{\r\n    \u0022name\u0022: \u0022Hoang\u0022,\r\n    \u0022age\u0022: 23\r\n}","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"{\r\n    \u0022name\u0022: \u0022Hoang\u0022,\r\n    \u0022age\u0022: 23\r\n}","QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"{\r\n    \u0022name\u0022: \u0022Hoang\u0022,\r\n    \u0022age\u0022: 23\r\n}","Headers":{},"QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"Hoang","Headers":{},"QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"Hoang","Headers":{},"QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","Body":"Hoang","Headers":{},"QueryString":""}
+{"Scheme":"https","Host":"localhost:7204","Path":"/","QueryString":"","Body":"Hoang","Headers":{"Accept":"*/*","Connection":"keep-alive","Host":"localhost:7204","User-Agent":"PostmanRuntime/7.29.0","Accept-Encoding":"gzip, deflate, br","Content-Type":"text/plain","Content-Length":"5","MyHeader":"Hello anyone there?","Postman-Token":"33a36a73-9a0c-45d8-9e7e-e10f818b9fd4"}}
