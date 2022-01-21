@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4BKj/5//m7A+S0J4ypBCvXp0Gss1+RNxzAFRh0X7ZPJ8BA9O2zImyyJFa6dIAF5pOucHCCz9evB9fWy4PvRm7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 5\\MVC\\MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HOANG\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
