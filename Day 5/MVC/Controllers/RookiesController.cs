@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using D5.Models;
 using System.Globalization;
@@ -112,10 +111,11 @@ public class RookiesController : Controller
             }
         };
 
-public IActionResult Index()
+    public IActionResult Index()
     {
         return View(people);
     }
+
     // [Route("rookies/male")]
     [Route("rookies/male-members")]
 
@@ -164,7 +164,7 @@ public IActionResult Index()
 
     public IActionResult Export()
     {
-        var buffer = WriteCsvToMemory(people); 
+        var buffer = WriteCsvToMemory(people);
         var memoryStream = new MemoryStream(buffer);
         return new FileStreamResult(memoryStream, "text/csv") { FileDownloadName = "export.csv" };
     }
@@ -175,7 +175,7 @@ public IActionResult Index()
         using (var writer = new StreamWriter(stream))
         using (var csvWriter = new CsvWriter(writer, CultureInfo.InvariantCulture))
         {
-            var options = new TypeConverterOptions { Formats = new[] {"dd/MM/yyy"}};
+            var options = new TypeConverterOptions { Formats = new[] { "dd/MM/yyy" } };
             csvWriter.Context.TypeConverterOptionsCache.AddOptions<DateTime>(options);
 
             csvWriter.WriteRecords(data);
