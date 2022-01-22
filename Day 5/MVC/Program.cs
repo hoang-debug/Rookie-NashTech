@@ -20,8 +20,23 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// app.UseMvc(routes =>
+// {
+//     routes.MapRoute("NashTech",
+//                       "NashTech",
+//                       new { Controller = "Home", Action = "Index" });
+
+//     routes.MapRoute("default",
+//      "{controller=Home}/{action=Index}");
+// });
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+name: "default",
+pattern: "{controller=Home}/{action=Index}");
+
+app.MapControllerRoute(
+    name: "Nashtech",
+    pattern: "Nashtech/{Controller}/{Action}",
+    new { Controller = "Rookies" , Action = "Index" });
+
 
 app.Run();
