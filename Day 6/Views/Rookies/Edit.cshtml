@@ -1,0 +1,56 @@
+﻿@model D5.Models.PersonEditModel
+@{
+    ViewData["Title"] = "Edit Member";
+}
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <h1>@ViewData["Title"]</h1>
+        <form asp-controller="Rookies" asp-action="Edit" method="post">
+            <div class="form-group mb-2">
+                <label asp-for="FirstName"></label>
+                <input type="text" asp-for="FirstName" class="form-control" placeholder="First Name">
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="LastName"></label>
+                <input type="text" asp-for="LastName" class="form-control" placeholder="Last Name">
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="Gender"></label>
+                <select class="form-control" asp-for="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Female">Other</option>
+                </select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="DateOfBirth"></label>
+                <input type="date" asp-for="DateOfBirth" class="form-control" placeholder="Date of Birth">
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="PhoneNumber"></label>
+                <input type="number" asp-for="PhoneNumber" class="form-control" placeholder="Phone Number">
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-2">
+                <label asp-for="BirthPlace"></label>
+                <input type="text" asp-for="BirthPlace" class="form-control" placeholder="Birth Place">
+                <span asp-validation-for="BirthPlace" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Index">
+                <a class="btn btn-secondary me-2" asp-controller="Rookies" asp-action="Index">Back</a>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+       
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
