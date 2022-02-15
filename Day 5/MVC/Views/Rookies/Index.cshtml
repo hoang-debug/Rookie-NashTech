@@ -6,6 +6,10 @@
 
 <div class="text-center">
     <h1 class="display-4">People List</h1>
+     @Html.ActionLink("Creat New Member", "Creat", "Rookies",null,htmlAttributes: new {@class="btn btn-primary"})
+
+    @* <a href="@Url.Action("Creat", "Rookies")" class="btn btn-secondary">Creat New Member</a>
+    <a asp-action="Creat" asp-controller="Rookies" class="btn btn-success">Creat New Member</a> *@
     <table class="table">
         <thead>
             <tr>
@@ -15,6 +19,7 @@
                 <th scope="col">Date Of Birth</th>
                 <th scope="col">Age</th>
                 <th scope="col">Birth Place</th>
+                <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -30,6 +35,10 @@
                         <td>@person.DateOfBirth.ToString("dd MMM yyyy")</td>
                         <td>@person.Age</td>
                         <td>@person.BirthPlace</td>
+                        <td>
+                            <button type="button" class="btn-sm btn-primary">Edit</button>
+                            <button type="button" class="btn-sm btn-danger">Delete</button>
+                        </td>
                     </tr>
                 }
             }

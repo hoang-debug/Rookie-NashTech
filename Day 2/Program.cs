@@ -131,14 +131,14 @@
 
         static List<Member> GetMaleMembers()
         {
-            // var results = members.Where(x => x.Gender == "Male").ToList();
-            var results = members.Select((member, index) =>
-            {
-                if (member.Gender == "Male")
-                    return member;
-                else
-                    return null;
-            }).Where(x => x != null).ToList();
+            var results = members.Where(x => x.Gender == "Male").ToList();
+            // var results = members.Select((member, index) =>
+            // {
+            //     if (member.Gender == "Male")
+            //         return member;
+            //     else
+            //         return null;
+            // }).Where(x => x != null).ToList();
             return results;
         }
         static Member GetOldestMember()
