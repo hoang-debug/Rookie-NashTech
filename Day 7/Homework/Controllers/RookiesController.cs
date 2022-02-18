@@ -99,14 +99,12 @@ public class RookiesController : Controller
         {
 
         }
-        return RedirectToAction("Result");
+        return View("Result");
     }
     public IActionResult Result()
     {
-        
             var deletedUserName = HttpContext.Session.GetString("DELETED_USER_NAME");
             ViewBag.DeletedUserName = deletedUserName;
             return View();
-
     }
 }
