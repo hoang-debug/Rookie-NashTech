@@ -1,0 +1,27 @@
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\appsettings.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Day 8.exe
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Day 8.deps.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Day 8.runtimeconfig.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Day 8.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\ref\Day 8.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Day 8.pdb
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.csproj.AssemblyReference.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.AssemblyInfoInputs.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.AssemblyInfo.cs
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.csproj.CoreCompileInputs.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\scopedcss\bundle\Day 8.styles.css
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.csproj.CopyComplete
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\ref\Day 8.dll
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.pdb
+C:\Users\HOANG\Documents\GitHub\C#\Day 8\obj\Debug\net6.0\Day 8.genruntimeconfig.cache
