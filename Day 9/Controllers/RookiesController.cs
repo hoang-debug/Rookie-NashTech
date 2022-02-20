@@ -62,4 +62,31 @@ public class RookiesController : ControllerBase
         return Ok();
     }
 
+    [HttpGet]
+    [Route("filter/gender/{Gender}")]
+    public List<Person> FilterByGender(string Gender)
+    {
+        var filteredResults = new List<Person>();
+        filteredResults = _personService.FilterByGender(Gender);
+        
+        return filteredResults;
+    }
+
+    [HttpGet]
+    [Route("filter/full-name/{FullName}")]
+    public List<Person> FilterByFullName(string FullName)
+    {
+        var filteredResults = new List<Person>();
+        filteredResults = _personService.FilterByFullName(FullName);
+        return filteredResults;
+    }
+
+    [HttpGet]
+    [Route("filter/birth-place/{BirthPlace}")]
+    public List<Person> FilterByBirthPlace(string BirthPlace)
+    {
+        var filteredResults = new List<Person>();
+        filteredResults = _personService.FilterByBirthPlace(BirthPlace);
+        return filteredResults;
+    }
 }
