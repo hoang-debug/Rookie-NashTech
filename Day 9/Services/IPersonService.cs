@@ -16,8 +16,8 @@ namespace Day_9.Services
         Person? Edit (Person person);
         void Remove(Guid id);
         bool Exits(Guid id);
-        List<Person> FilterByGender(string Name);
-        List<Person> FilterByFullName(string FullName);
-        List<Person> FilterByBirthPlace(string BirthPlace);
+        // List<Person> FilterByGender(string Name);
+        // List<Person> FilterByFullName(string FullName);
+        // List<Person> FilterByBirthPlace(string BirthPlace);
     }
 }

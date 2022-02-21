@@ -42,19 +42,5 @@ namespace Day_9.Models
             return TotalDays.CompareTo(obj);
         }
     }
-    public class PersonEditModel : Person
-    {
-        public int Index { get; set; }
-        public PersonEditModel() { }
-        public PersonEditModel(Person person)
-        {
-            FirstName = person.FirstName;
-            LastName = person.LastName;
-            Gender = person.Gender;
-            DateOfBirth = person.DateOfBirth;
-            PhoneNumber = person.PhoneNumber;
-            BirthPlace = person.BirthPlace;
-        }
-    }
 }
 

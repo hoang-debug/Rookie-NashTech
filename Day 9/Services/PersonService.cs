@@ -161,28 +161,28 @@ namespace Day_9.Services
         {
             return _people.Any(d => d.Id == id);
         }
-        public List<Person> FilterByGender(string Gender)
-        {
-            var results = _people
-               .Where(x => x.Gender?.ToLower() == Gender.ToLower())
-               .ToList();
-           return results;
-        }
+        // public List<Person> FilterByGender(string Gender)
+        // {
+        //     var results = _people
+        //        .Where(x => x.Gender?.ToLower() == Gender.ToLower())
+        //        .ToList();
+        //    return results;
+        // }
 
-        public List<Person> FilterByFullName(string FullName)
-        {
-            var results = GetAll()
-               .Where(x => x.FullName?.ToLower() == FullName.ToLower())
-               .ToList();
-           return results;
-        }
+        // public List<Person> FilterByFullName(string FullName)
+        // {
+        //     var results = GetAll()
+        //        .Where(x => x.FullName?.ToLower() == FullName.ToLower())
+        //        .ToList();
+        //    return results;
+        // }
 
-        public List<Person> FilterByBirthPlace(string BirthPlace)
-        {
-            var results = GetAll()
-               .Where(x => x.BirthPlace?.ToLower() == BirthPlace.ToLower())
-               .ToList();
-           return results;
-        }
+        // public List<Person> FilterByBirthPlace(string BirthPlace)
+        // {
+        //     var results = GetAll()
+        //        .Where(x => x.BirthPlace?.ToLower() == BirthPlace.ToLower())
+        //        .ToList();
+        //    return results;
+        // }
     }
 }
