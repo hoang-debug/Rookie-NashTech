@@ -18,7 +18,6 @@ namespace Day_10.Services
 
         public async Task<Student?> GetOneAsync(int id)
         {
-            if (_context.Students == null) return null;
 
             return await _context.Students.SingleOrDefaultAsync(x => x.StudentId == id);
         }
@@ -43,11 +42,16 @@ namespace Day_10.Services
             return entity;
         }
 
-        // public async Task RemoveAsync(int id)
-        // {
-            
-        //     await _context.SaveChangesAsync();
-        // }
+        public async Task<Student?> RemoveAsync(int id, Student entity)
+        {            
+            if (_context.Students == null) return null;
 
+            var entityId = await _context.Students.SingleOrDefaultAsync(x => x.StudentId == id);
+
+            _context.Students.Remove(entity);
+            await _context.SaveChangesAsync();
+
+            return entity;
+        }
     }
 }

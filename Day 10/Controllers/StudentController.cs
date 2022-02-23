@@ -83,4 +83,16 @@ public class StudentController : ControllerBase
         var result = await _studentService.EditAsync(entity);
         return new JsonResult(result);
     }
+
+    [HttpDelete]
+    [Route("{id}")]
+
+    public async Task<IActionResult> RemoveAsync(int id)
+    {
+        var entity = await _studentService.GetOneAsync(id);
+        if (entity == null) return NotFound();
+
+        await _studentService.RemoveAsync(id, entity);
+        return Ok();
+    }
 }

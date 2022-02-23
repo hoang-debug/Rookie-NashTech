@@ -8,7 +8,7 @@ namespace Day_10.Services
         public Task<Student?> GetOneAsync(int id);
         public Task<Student?> AddAsync(Student entity);
         public Task<Student?> EditAsync(Student entity);
-        // public void RemoveAsync(int id);
+        public Task<Student?> RemoveAsync(int id, Student entity);
 
     }
 }
