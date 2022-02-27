@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj": {}
+    "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj": {
+    "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj",
+        "projectUniqueName": "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj",
         "projectName": "Day 11",
-        "projectPath": "c:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj",
+        "projectPath": "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\Day 11.csproj",
         "packagesPath": "C:\\Users\\HOANG\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\obj\\",
+        "outputPath": "C:\\Users\\HOANG\\Documents\\GitHub\\C#\\Day 11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HOANG\\AppData\\Roaming\\NuGet\\NuGet.Config",

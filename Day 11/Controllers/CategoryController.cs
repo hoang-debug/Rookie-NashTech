@@ -76,22 +76,11 @@ public class CategoryController : ControllerBase
 
     }
 
-    [HttpGet("{id:int}")]
+    [HttpGet("{id}")]
     public async Task<IActionResult> GetOneAsync(int id)
     {
-        var result = await _categoryService.GetOneAsync(id);
-        return new JsonResult(new CategoryViewModel
-        {
-            Id = result.Id,
-            Name = result.Name,
-            Products = from p in result.Products
-                       select new ProductViewModel
-                       {
-                           Id = p.Id,
-                           Name = p.Name,
-                           Manufacturer = p.Manufacturer
-                       }
-        });
+        var entity = await _categoryService.GetOneAsync(id);
+        return new JsonResult(entity);
     }
 
     [HttpPut]
@@ -99,7 +88,6 @@ public class CategoryController : ControllerBase
     public async Task<IActionResult> EditAsync(int id, CategoryEditModel model)
     {
         var entity = await _categoryService.GetOneAsync(id);
-
 
         entity.Name = model.Name;
         // IEnumerable<ProductViewModel> enumerable = from p in entity.Products
@@ -112,6 +100,7 @@ public class CategoryController : ControllerBase
         var result = await _categoryService.EditAsync(entity);
         return new JsonResult(new CategoryEditModel
             {
+                
                 Name = result.Name
             });
     }
@@ -122,6 +111,7 @@ public class CategoryController : ControllerBase
     public async Task<IActionResult> RemoveAsync(int id)
     {
         var entity = await _categoryService.GetOneAsync(id);
+        if (entity == null) return NotFound();
 
         await _categoryService.RemoveAsync(id, entity);
         return Ok();

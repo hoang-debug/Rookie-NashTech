@@ -48,8 +48,10 @@ namespace Day_11.Services
 
         public async Task<Category?> RemoveAsync(int id, Category entity)
         {
-             await _repository.DeleteAsync(entity);
+            if (_repository == null) return null;
 
+            var entityId = await _repository.GetAsync(id);
+             await _repository.DeleteAsync(entity);
              return entity;
         }
     }
