@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Result Page";
+    var deletedUserName = (string)ViewBag.DeletedUserName;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+    <p>Person @deletedUserName was removed from the
+list successfully!</p>
+
+@section Scripts {
+    @{Console.WriteLine(deletedUserName);}
+}

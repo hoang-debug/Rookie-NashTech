@@ -1,0 +1,73 @@
+﻿@* @model List<Person> *@
+
+@{
+    ViewData["Title"] = "People Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">People List</h1>
+    @* @Html.ActionLink("Creat New Member", "Creat", "Rookies",null,htmlAttributes: new {@class="btn btn-primary"}) *@
+    <a asp-action="Create" asp-controller="Rookies" class="btn btn-success">Creat New Member</a>
+    @* <a href="@Url.Action("Creat", "Rookies")" class="btn btn-secondary">Creat New Member</a> *@
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Full Name</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Date Of Birth</th>
+                <th scope="col">Age</th>
+                <th scope="col">Birth Place</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                @for (var index = 1; index <= Model.Count; index++)
+                {
+                    var action = @Url.Action("Delete", "Rookies");
+                    var person = Model[index - 1];
+                    <tr>
+                        <th scope="row">@index</th>
+                        <td><a type="button" class="btn btn-sm btn-outline-dark" asp-action="Detail" asp-controller="Rookies"
+                        asp-route-index="@index">@person.FullName</a></td>
+                        <td>@person.Gender</td>
+                        <td>@person.DateOfBirth.ToString("dd MMM yyyy")</td>
+                        <td>@person.Age</td>
+                        <td>@person.BirthPlace</td>
+                        <td>
+                            <a type="button" class="btn btn-sm btn-primary" asp-action="Edit" asp-controller="Rookies"
+                        asp-route-index="@index">Edit</a>
+                            @* <a type="button" class="btn btn-sm btn-warning" asp-action="Delete" asp-controller="Rookies"
+                        asp-route-index="@index">Delete</a> *@
+                            <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#deleteModal" onclick="PassRowIndexModal('@action', @index)">Delete</button>
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form  asp-action="Delete" asp-controller="Rookies" method="post" >
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-danger">Confirm</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
